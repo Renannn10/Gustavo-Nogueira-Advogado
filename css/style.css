@@ -16,43 +16,40 @@ p{
 }
 
 .logo{
-   background-color: #000000; 
+   background-color: #0a0025; 
    text-align: center;
 }
-.logo_imagem{
-    width: 90%;
-    background-color: #000000;
-}
+
 
 .Gustavo{
     width: 100%;
-    background-color: #000000;
+    background-color: #c9bb00;
 }
 .descricao{
-    background-color: #333232;
-    color: rgb(204, 204, 204);
+    background-color: #0a0025;
+    color: rgb(132, 155, 0);
     text-align: center;
-    padding: 20px;
+    padding: 10px;
 }
 
 
 
 
 .whatsApp{
-    border-color: #000000;
-    background-color: #04a026;
-    padding: 20px;
+    border-color: #ffffff;
+    background-color: #029c23;
+    padding: 1px;
     color: #000000;
     font-weight: bold;
     font-size: 1.5em;
 }
 .whatsApp_link {
-    color: #150070;
+    color: #140264;
     text-decoration: none;
 }
 
 .whatsApp_link a {
-    color: #030303;
+    color: #000000;
 }
 
 .advgusttavonogueira{
@@ -61,13 +58,13 @@ p{
 
 .servicos{
     padding: 40px;
-    background-color: #333232;
-    color: rgb(204, 204, 204) ;
+    background-color: #0a0025;
+    color: rgb(132, 155, 0) ;
     text-align: center;    
 }
 
 .Gustavo{
-    background-color: #333232;    
+    background-color: #0a0025;    
 }
 
 .maory_foto{
@@ -76,7 +73,7 @@ p{
 
 .advgusttavonogueira{
     padding: 20px;
-    color: rgb(204, 204, 204);
+    color: rgb(132, 155, 0);
 }
 
 label{
@@ -98,13 +95,13 @@ textarea{
 
 .enviar_mensagem{
     text-align: center;
-    margin: 20px;
+    margin: 10px;
     
 }
 
 footer{
     padding: 40px;
-    background-color: #333232;
-    color: white ;
+    background-color: #0a0025;
+    color: rgb(132, 155, 0);
     text-align: center;
 }
