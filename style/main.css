@@ -1,0 +1,41 @@
+body {
+    background: rgb(8, 2, 32);
+}
+
+.container {
+    padding-top: 80px;
+    width: 100vw;
+    height: 100vh;
+    text-align: center;  
+}
+
+.container .icones-sociais {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    top: 30%;
+    margin: 0 0 0 20px;
+    color: white;
+    font-size: 40px;
+    position: fixed;
+}
+
+.texto-main {
+    padding: 0 200px;
+    text-align: center;
+}
+
+.texto-main p {
+    font-size: 25px;
+    color: white;
+}
+
+.container .fundo_foto {
+    position: absolute;
+    opacity: 80%;
+    z-index: -1;
+    width: 500px;
+    top: 40px;
+    right: 0;
+}
+
