@@ -1,33 +1,79 @@
 body {
-    background: rgb(8, 2, 32);
+    background: linear-gradient(to bottom, rgb(8, 2, 32), black);
 }
 
 .container {
     padding-top: 80px;
     width: 100vw;
     height: 100vh;
-    text-align: center;  
+    text-align: center;
 }
 
 .container .icones-sociais {
     display: flex;
-    flex-direction: column;
-    gap: 40px;
-    top: 30%;
-    margin: 0 0 0 20px;
-    color: white;
+    top: 80%;
+    margin: 0 0 0 40px;
     font-size: 40px;
     position: fixed;
 }
 
+.container .icones-sociais a {
+    display: flex;
+    padding: 10px;
+    border-radius: 50px;
+    list-style-type: none;
+    color: white;
+    background: green;
+}
+
 .texto-main {
-    padding: 0 200px;
+    width: 80%;
+    padding: 0 0 0 20%; 
     text-align: center;
 }
 
 .texto-main p {
     font-size: 25px;
     color: white;
+}
+
+.botao-inicio {
+    display: flex;
+    gap: 40px;
+    margin: 0 0 0 15em;
+    margin-top: 80px;
+
+}
+
+.botao-inicio .botao-conhecer {
+    width: 180px;
+    padding: 10px 5px;
+    border-radius: 5px;
+    background: hsla(43, 79%, 46%, 0.737);
+    border: none;
+    font-size: 15px;
+
+}
+
+.botao-inicio .botao-conhecer:hover {
+    background: transparent;
+    color: hsla(43, 87%, 54%, 0.737);
+    border: 1px solid hsla(43, 87%, 54%);
+}
+
+.botao-inicio .botao-mais {
+    background-color: transparent;
+    border: none;
+    font-size: 15px;
+}
+
+.botao-inicio .botao-mais a:hover {
+    color: hsla(43, 87%, 54%, 0.737);
+}
+
+.botao-inicio button a {
+    text-decoration: none;
+    color: rgb(231, 227, 227);
 }
 
 .container .fundo_foto {
@@ -39,3 +85,21 @@ body {
     right: 0;
 }
 
+.observacoes {
+    display: flex;
+    height: 300px;
+}
+
+.observacoes .caixa-inf {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(255, 255, 255);
+}
+
+.observacoes .caixa-inf p {
+    text-align: center;
+    font-weight: bold;
+    font-size: 20px;
+    margin: 50px;
+}
