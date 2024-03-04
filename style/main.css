@@ -42,7 +42,6 @@ body {
     gap: 40px;
     margin: 0 0 0 15em;
     margin-top: 80px;
-
 }
 
 .botao-inicio .botao-conhecer {
@@ -52,7 +51,7 @@ body {
     background: hsla(43, 79%, 46%, 0.737);
     border: none;
     font-size: 15px;
-
+    cursor: pointer;
 }
 
 .botao-inicio .botao-conhecer:hover {

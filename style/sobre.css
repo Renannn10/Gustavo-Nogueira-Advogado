@@ -53,3 +53,23 @@
     width: 60%;
     height: 70%;
 }
+
+.observacoes2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: 200px;
+}
+
+.observacoes2 .caixa-inf2 {
+    background: white;
+    padding: 30px 80px;
+    width: 60%;
+    border-radius: 20px;
+}
+
+.observacoes2 .caixa-inf2 h3 {
+    font-size: 40px;
+    margin-bottom: 30px;
+}

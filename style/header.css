@@ -16,6 +16,7 @@ header {
     position: fixed;
     width: 100%;
     background-color: rgba(0, 0, 0, 0.2);
+    z-index: 100;
 }
 
 header ul {
@@ -25,12 +26,11 @@ header ul {
 }
 
 header ul li {
-    list-style-type: none;  
-    padding: 10px;
+    list-style-type: none;
 }
 
 header ul li:hover {
-    border-bottom: 1px solid hsla(43, 87%, 54%, 0.737);;
+    border-bottom: 2px solid hsla(43, 87%, 54%, 0.737);
 }
 
 header ul a {
@@ -39,5 +39,5 @@ header ul a {
 }
 
 header img {
-    width: 200px;
+    width: 180px;
 }
