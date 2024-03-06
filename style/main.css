@@ -3,16 +3,27 @@ body {
 }
 
 .container {
+    display: flex;
+    flex-direction: column;
     padding-top: 80px;
     width: 100vw;
     height: 100vh;
     text-align: center;
+    justify-content: end;
+    padding-bottom: 40px;
+}
+
+.container .img-main {
+    position: absolute;
+    top: 5%;
+    right: 10px;
+    left: 10px;
+    font-size: 50px;
 }
 
 .container .icones-sociais {
-    display: flex;
     top: 80%;
-    margin: 0 0 0 40px;
+    margin-left: 20px;
     font-size: 40px;
     position: fixed;
 }
@@ -44,7 +55,7 @@ body {
     margin-top: 80px;
 }
 
-.botao-inicio .botao-conhecer {
+.botao-conhecer {
     width: 180px;
     padding: 10px 5px;
     border-radius: 5px;
@@ -52,9 +63,10 @@ body {
     border: none;
     font-size: 15px;
     cursor: pointer;
+    color: rgb(231, 227, 227);
 }
 
-.botao-inicio .botao-conhecer:hover {
+ .botao-conhecer:hover {
     background: transparent;
     color: hsla(43, 87%, 54%, 0.737);
     border: 1px solid hsla(43, 87%, 54%);
@@ -64,15 +76,12 @@ body {
     background-color: transparent;
     border: none;
     font-size: 15px;
-}
-
-.botao-inicio .botao-mais a:hover {
-    color: hsla(43, 87%, 54%, 0.737);
-}
-
-.botao-inicio button a {
-    text-decoration: none;
     color: rgb(231, 227, 227);
+    cursor: pointer;
+}
+
+.botao-inicio .botao-mais:hover {
+    color: hsla(43, 87%, 54%, 0.737);
 }
 
 .container .fundo_foto {
@@ -86,7 +95,7 @@ body {
 
 .observacoes {
     display: flex;
-    height: 300px;
+    height: 400px;
 }
 
 .observacoes .caixa-inf {

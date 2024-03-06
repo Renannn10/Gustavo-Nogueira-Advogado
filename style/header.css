@@ -12,7 +12,7 @@ header {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 0 50px;
+    padding: 0 100px;
     position: fixed;
     width: 100%;
     background-color: rgba(0, 0, 0, 0.2);
@@ -21,7 +21,7 @@ header {
 
 header ul {
     display: flex;
-    gap: 40px;
+    gap: 60px;
     text-align: center;
 }
 
