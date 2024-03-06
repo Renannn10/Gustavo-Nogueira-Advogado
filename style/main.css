@@ -1,0 +1,113 @@
+body {
+    background: linear-gradient(to bottom, rgb(8, 2, 32), black);
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    padding-top: 80px;
+    width: 100vw;
+    height: 100vh;
+    text-align: center;
+    justify-content: end;
+    padding-bottom: 40px;
+}
+
+.container .img-main {
+    position: absolute;
+    top: 5%;
+    right: 10px;
+    left: 10px;
+    font-size: 50px;
+}
+
+.container .icones-sociais {
+    top: 80%;
+    margin-left: 20px;
+    font-size: 40px;
+    position: fixed;
+}
+
+.container .icones-sociais a {
+    display: flex;
+    padding: 10px;
+    border-radius: 50px;
+    list-style-type: none;
+    color: white;
+    background: green;
+}
+
+.texto-main {
+    width: 80%;
+    padding: 0 0 0 20%; 
+    text-align: center;
+}
+
+.texto-main p {
+    font-size: 25px;
+    color: white;
+}
+
+.botao-inicio {
+    display: flex;
+    gap: 40px;
+    margin: 0 0 0 15em;
+    margin-top: 80px;
+}
+
+.botao-conhecer {
+    width: 180px;
+    padding: 10px 5px;
+    border-radius: 5px;
+    background: hsla(43, 79%, 46%, 0.737);
+    border: none;
+    font-size: 15px;
+    cursor: pointer;
+    color: rgb(231, 227, 227);
+}
+
+ .botao-conhecer:hover {
+    background: transparent;
+    color: hsla(43, 87%, 54%, 0.737);
+    border: 1px solid hsla(43, 87%, 54%);
+}
+
+.botao-inicio .botao-mais {
+    background-color: transparent;
+    border: none;
+    font-size: 15px;
+    color: rgb(231, 227, 227);
+    cursor: pointer;
+}
+
+.botao-inicio .botao-mais:hover {
+    color: hsla(43, 87%, 54%, 0.737);
+}
+
+.container .fundo_foto {
+    position: absolute;
+    opacity: 80%;
+    z-index: -1;
+    width: 500px;
+    top: 40px;
+    right: 0;
+}
+
+.observacoes {
+    display: flex;
+    height: 400px;
+}
+
+.observacoes .caixa-inf {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(255, 255, 255);
+}
+
+.observacoes .caixa-inf p {
+    text-align: center;
+    font-weight: bold;
+    font-size: 20px;
+    margin: 50px;
+}
